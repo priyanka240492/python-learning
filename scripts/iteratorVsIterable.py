@@ -81,7 +81,7 @@ print("Squared numbers using map():", list(map(square, numbers)))
 # | Expression           | Behaviour                                   | Keeps Elements That Are |
 # | -------------------- | ------------------------------------------- | ----------------------- |
 # | filter(None, list)   | Removes falsy items                         | Truthy values only      |
-# | filter(func, list)   | Removes items where func(item) is False      | Function returns True   |
+# | filter(func, list)   | Removes items where func(item) is False     | Function returns True   |
 # ==============================================================================
 
 age = [10, -5, 3, -1, 0, 7, -2]
