@@ -1,6 +1,6 @@
 # Clean emp names by providing space in between first and last names
 import pandas as pd
-submitted_project = True
+
 data = {'emp_id': [101, 102, 103, 104],
         'emp_name': ['JohnDoe', 'JaneSmith', 'AliceJohnson', 'BobBrown'],
         'submitted_project': [True, False, True, False]}
