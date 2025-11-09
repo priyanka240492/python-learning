@@ -26,7 +26,7 @@ if __name__ == "__main__":
     print(divide_numbers_try_except(10, 0))  # Output: Error: Cannot divide by zero.
     print(divide_numbers_try_except(10, 'a'))  # Output: Error: Invalid input type. Please provide numbers.
 
-    print("-----Execution completed without breaking with TRY-EXCEPT-----")
+    print("-----Execution completed without breaking with TRY-EXCEPT Exception-----")
 
     print("===================================================")
 
@@ -36,6 +36,6 @@ if __name__ == "__main__":
     print(divide_numbers_if_raise(10, 0))  # Raises ValueError
     print(divide_numbers_if_raise(10, 'a'))  # Raises TypeError
 
-    print("-----Execution breaks the flow with IF RAISE-----")
+    print("-----Execution flow broken with IF-RAISE exception -----")
 
 
