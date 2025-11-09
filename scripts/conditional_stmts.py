@@ -101,3 +101,27 @@ if submitted_project:
     print("Project is submitted")
 else:
     print("Project is not submitted")
+
+# ---------------------------------------
+# Inline If Statement
+# ---------------------------------------
+grade = "Pass" if score >= 60 else "Fail"
+print(grade)
+# ------------------------------------------------------------------
+# Inline If with multiple conditions (Not recommended for readability)
+# ------------------------------------------------------------------
+grade = ("A" if score >= 90 else "B" if score >= 80 else "C")
+print(grade)
+# ---------------------------------------
+# Match Statement (Python 3.10+)
+# ---------------------------------------
+country = "United States"
+match country:
+    case "USA" | "United States": # | means OR
+        print("United States of America")
+    case "CAN":
+        print("Canada")
+    case "MEX":
+        print("Mexico")
+    case _:
+        print("Other Country")
