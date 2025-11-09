@@ -107,11 +107,13 @@ else:
 # ---------------------------------------
 grade = "Pass" if score >= 60 else "Fail"
 print(grade)
+
 # ------------------------------------------------------------------
 # Inline If with multiple conditions (Not recommended for readability)
 # ------------------------------------------------------------------
 grade = ("A" if score >= 90 else "B" if score >= 80 else "C")
 print(grade)
+
 # ---------------------------------------
 # Match Statement (Python 3.10+)
 # ---------------------------------------
