@@ -20,6 +20,10 @@ emp_list = [
 # --------------------------------------------------------------------
 # Basic Filtering with List Comprehension
 # --------------------------------------------------------------------
+
+# Syntax for list comprehension : [<Transform> <Loop> <Condition>]
+
+# Example: Get employees aged 20
 mylist1 = [emp for emp in emp_list if emp['age'] == 20]
 print("Output as List (employees aged 20):", mylist1)
 
