@@ -15,7 +15,7 @@ print(2 + 3)
 print(2 * 3)
 print(4 - 3)
 print(4 / 3)
-print(20 // 5) #Floor Division - It divides 2 numbers and round down
+print(20 // 5) #  Output:4 - Floor Division - It divides 2 numbers and round down.
 print(4 % 2) #Remainder - Usecase - To find a number even or odd
 print(2 ** 3) #Exponential - raises an number to the power of another number
 
