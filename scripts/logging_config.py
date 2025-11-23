@@ -1,7 +1,14 @@
-import logging
-''' This script demonstrates how to configure logging in Python.
+"""
+File: logging_configpy
+Purpose: Demonstrate basic logging configuration in Python
+Author: Priya K
+
+Description:
+    This script demonstrates how to configure logging in Python.
     It sets up a basic logging configuration to log messages with timestamps.
-'''
+"""
+import logging
+
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S')  
